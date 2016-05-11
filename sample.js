@@ -13,7 +13,7 @@ function genericOnClick(info, d) {
   var sharedLink = '&url='+encodeURIComponent(isEmpty(info.linkUrl) ? info.pageUrl : info.linkUrl);
   var sharedSelection = '&summary='+encodeURIComponent(isEmpty(info.selectionText) ? '' : info.selectionText);
     
-  var f='http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title='+encodeURIComponent(d.title)+sharedLink+sharedSelection;
+  var f='http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet'+sharedLink+sharedSelection;
   window.open(f,'News','width=520,height=570,toolbar=0,location=0,status=0,scrollbars=yes');
 }
 
