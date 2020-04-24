@@ -1,10 +1,10 @@
 {
   "name": "LinkedIn Share",
   "description": "Right click to share to LinkedIn",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": ["contextMenus", "tabs"],
   "background": {
-    "scripts": ["sample.js"]
+    "scripts": ["share-linkedin.js"]
   },
   "icons": {
     "16": "icon-16.png",
