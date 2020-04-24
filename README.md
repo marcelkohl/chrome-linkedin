@@ -4,3 +4,14 @@
 
 # Share on LinkedIn
 This Chrome extension enables an option on the right click menu to share a page or selection to Linkedin.
+
+## Install
+Download or clone the project.
+
+Add it from your chrome browser settings:
+
+- ``settings -> extensions``
+- Enable Developer Mode
+- Load unpacked extension
+- Select the folder where you downloaded this project
+- Share your content :smile:
